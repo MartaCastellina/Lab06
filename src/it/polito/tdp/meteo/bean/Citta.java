@@ -75,4 +75,8 @@ public class Citta {
 		return nome;
 	}
 	
+	public int getUmidita(int giorno) {
+		return rilevamenti.get(giorno).getUmidita();
+	}
+	
 }
